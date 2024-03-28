@@ -50,7 +50,7 @@ class HTTP_TDB():
         You cannot set callback for this function.
         execute_after accepts integer (in milliseconds)
         """
-        await self.http_client.post(f"{self.http_tdb_url}/execute", json={
+        await self.http_client.post(f"{self.http_tdb_url}/execute-async", json={
             "database_name": self.database_name,
             "query": query,
             "execute_after": execute_after
