@@ -19,7 +19,5 @@ setuptools.setup(
     },
     license="MIT",
     packages=["httptdb"],
-    install_requires=[
-        "httpx >= 0.27.0"
-    ]
+    install_requires=[]
 )
